@@ -12,6 +12,12 @@ A Comprehensive Dataset for Price Forecasting with 13 key Features.
 
 Link: http://kaggle.com/datasets/harishkumardatalab/housing-price-prediction?resource=download
 
+## Usage:
+1. Predict price of a house based on input features.
+2. Compare different property configurations.
+3. Analyze impact of amenities (AC, basement, etc.).
+4. Assist real estate agents in price estimation.
+5. Use as a demo project for ML + Flask deployment.
 
 ## Technologies Used:
 1. **Flask** - Web Framework
