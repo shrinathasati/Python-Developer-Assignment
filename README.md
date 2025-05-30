@@ -21,6 +21,7 @@ Link: http://kaggle.com/datasets/harishkumardatalab/housing-price-prediction?res
 5. **NumPy + Pandas** - Data Handling
 
 ## Project Structure
+```bash
 houseprice_prediction/
 │
 ├── app.py                  # Main Flask backend
@@ -33,6 +34,7 @@ houseprice_prediction/
 ├── .gitignore
 ├── requirements.txt
 └── README.md
+```
 
 ### Setup Instructions
 
