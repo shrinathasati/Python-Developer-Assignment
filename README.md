@@ -1,1 +1,61 @@
-<pre><code>### 📂 Project Structure ``` houseprice_prediction/ │ ├── app.py # Main Flask backend ├── house_price_model.pkl # Trained ML model ├── scaler.pkl # Pre-fitted Scaler ├── templates/ │ └── index.html # Frontend HTML Form ├── static/ # (Optional) CSS or Images ├── snapshots/ # Form and Response Screenshots ├── .gitignore ├── requirements.txt └── README.md ``` </code></pre>
+### House Price Prediction Web App
+This project is a Flask-based machine learning web application that predicts house prices based on various input features such as area, number of bedrooms, furnishing status, etc. It uses a pre-trained regression model to make the predictions.
+
+## Features:
+1. Simple and responsive UI with HTML & CSS.
+2. Real-time prediction using a trained ML model (house_price_model.pkl).
+3. Clean form with dropdowns for categorical fields.
+4. REST API endpoint at /predict that accepts JSON input.
+
+### Dataset Description:
+A Comprehensive Dataset for Price Forecasting with 13 key Features.
+
+Link: http://kaggle.com/datasets/harishkumardatalab/housing-price-prediction?resource=download
+
+
+## Technologies Used:
+1. **Flask** - Web Framework
+2. **HTML + CSS** - Frontend
+3. **Pickle** - Model Serialization
+4. **scikit-learn** - ML Training & Inference
+5. **NumPy + Pandas** - Data Handling
+
+## Project Structure
+houseprice_prediction/
+│
+├── app.py                  # Main Flask backend
+├── house_price_model.pkl   # Trained ML model
+├── scaler.pkl              # Pre-fitted Scaler
+├── templates/
+│   └── index.html          # Frontend HTML Form
+├── static/                 # (Optional) CSS or Images
+├── snapshots/              # Form and Response Screenshots
+├── .gitignore
+├── requirements.txt
+└── README.md
+
+### Setup Instructions
+
+## clone the repo: 
+```bash
+git clone https://github.com/shrinathasati/Python-Developer-Assignment.git
+cd Python-Developer-Assignment
+```
+
+## Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+## Run the application
+```bash
+python app.py
+```
+
+## Access application
+```bash
+http://localhost:5000/
+```
+
+
+
